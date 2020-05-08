@@ -1,7 +1,6 @@
 require 'dxopal'
 include DXOpal
 Window.load_resources do
-  Window.bgcolor = C_BLACK
 
   # 地面のY座標
   GROUND_Y = 400
