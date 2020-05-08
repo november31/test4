@@ -6,7 +6,7 @@ Window.load_resources do
   GROUND_Y = 400
 
   Window.loop do
-    Window.draw_font(0, 0, "Hello!!!!!星", Font.default, color: C_WHITE)
+    Window.draw_font(0, 0, "Hello!!!!!星星", Font.default, color: C_WHITE)
 
 
   end
