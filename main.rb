@@ -12,9 +12,9 @@ Window.load_resources do
          
          Window.loop do
                   #キー入力をチェック
-                  if input.key_down?(K_LEFT)
+                  if Input.key_down?(K_LEFT)
                            x -=8
-                  elsif input.key_down?(K_RIGHT)
+                  elsif Input.key_down?(K_RIGHT)
                   x += 8
                   end
 #背景を描画
