@@ -2,7 +2,7 @@ require "dxopal"
 include DXOpal
 
 # 地面のY座標は400とする
-GROUND_Y = 400
+GROUND_Y = 800
 #使いたい画像を宣言する
 Image.register(:player, 'images/player.png')
 
@@ -16,6 +16,9 @@ Window.load_resources do
                            x -=8
                   elsif Input.key_down?(K_RIGHT)
                   x += 8
+                           
+                  elsif Input.touch_down?
+                           x += 8
                   end
 #背景を描画
                   Window.draw_box_fill(0,0,Window.width, GROUND_Y,[128,255,255])
