@@ -2,7 +2,7 @@ require "dxopal"
 include DXOpal
 
 # 地面のY座標は400とする
-GROUND_Y = 800
+GROUND_Y = 400
 #使いたい画像を宣言する
 Image.register(:player, 'images/player.png')
 
