@@ -26,6 +26,7 @@ Window.load_resources do
                            x += 8
                         elsif self.touch_x < Window.width / 2
                                  x -= 8
+                        end
                                  
                   end
 #背景を描画
