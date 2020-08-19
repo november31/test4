@@ -30,7 +30,7 @@ Window.load_resources do
                                  
                   end
                   #キャッシュ消去できてるかの確認のための文字
-                  Window.draw_font(100, 100, Ver1, Font.default)
+                  Window.draw_font(100, 100, "Ver1", Font.default)
                   
 #背景を描画
                   Window.draw_box_fill(0,0,Window.width, GROUND_Y,[128,255,255])
