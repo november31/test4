@@ -10,6 +10,9 @@ Window.load_resources do
          #最初は真ん中にする
          x = Window.width / 2
          
+         #タッチ位置の計算
+         touchposi = 0
+         
          Window.loop do
                   #キー入力をチェック
                   if Input.key_down?(K_LEFT)
@@ -18,7 +21,12 @@ Window.load_resources do
                   x += 8
                            
                   elsif Input.touch_down?
+                           
+                        if self.touch_x > Window.width / 2
                            x += 8
+                        elsif self.touch_x < Window.width / 2
+                                 x -= 8
+                                 
                   end
 #背景を描画
                   Window.draw_box_fill(0,0,Window.width, GROUND_Y,[128,255,255])
