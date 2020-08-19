@@ -22,9 +22,9 @@ Window.load_resources do
                            
                   elsif Input.touch_down?
                            
-                        if self.touch_x > Window.width / 2
+                        if Input.touch_x > Window.width / 2
                            x += 8
-                        elsif self.touch_x < Window.width / 2
+                        elsif Input.touch_x < Window.width / 2
                                  x -= 8
                         end
                                  
