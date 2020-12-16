@@ -39,6 +39,6 @@ Window.load_resources do
                   Window.draw_box_fill(0,GROUND_Y,Window.width,Window.height,[0,128,0])
          
                   #プレイヤーキャラを描画
-                  Window.draw(x, GROUND_Y - Image[:player].height, Image[:player])
+                  Window.draw(x, GROUND_Y - Image[:player].height-y, Image[:player])
          end
 end
