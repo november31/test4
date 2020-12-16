@@ -9,7 +9,8 @@ Image.register(:player, 'images/player.png')
 Window.load_resources do
          #最初は真ん中にする
          x = Window.width / 2
-         
+         y = Window.width /2
+	
          #タッチ位置の計算
          touchposi = 0
          
@@ -19,6 +20,11 @@ Window.load_resources do
                            x -=8
                   elsif Input.key_down?(K_RIGHT)
                   x += 8
+			
+		elsif Input.key_down?(K_UP)
+			y += 8
+		elsif Input.key_down?(K_DOWN)
+			y-=8
                            
                   elsif Input.touch_down?
                            
