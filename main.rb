@@ -29,7 +29,7 @@ Window.load_resources do
                         end
                                  
                   end
-                  #キャッシュ消去できてるかの確認のための文字
+                  #キャッシュ消去できてるかの確認のための文字です
                   Window.draw_font(100, 100, "Ver1", Font.default)
                   
 #背景を描画
