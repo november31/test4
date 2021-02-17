@@ -26,9 +26,9 @@ Window.load_resources do
 			y -= 8
                 elsif Input.touch_down?
                         if Input.touch_x > Window.width / 2
-                           x += 8
+                           x += 100                        
                         elsif Input.touch_x < Window.width / 2
-                           x -= 8
+                           x -= 100
                         end
                   end
                   #キャッシュ消去できてるかの確認のための文字です
