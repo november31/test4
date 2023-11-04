@@ -1,17 +1,4 @@
-require 'dxopal'
-include DXOpal
-Window.width = 300
-Window.height = 300
-Window.bgcolor = C_BLACK
 
-
-
-
-
-
-
-
-=begin
 require 'dxopal'
 include DXOpal
 Window.width = 300
@@ -29,7 +16,6 @@ Window.load_resources do
     y += dy
   end
 end
-=end
 
 
 
