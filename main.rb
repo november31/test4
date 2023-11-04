@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+=begin
+2023/11/04 何か昔練習したプログラム
 require "dxopal"
 include DXOpal
 
@@ -42,3 +51,4 @@ Window.load_resources do
                   Window.draw(x, GROUND_Y - Image[:player].height-y, Image[:player])
          end
 end
+=end
